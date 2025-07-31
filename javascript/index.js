@@ -79,3 +79,17 @@ function updateCity(event) {
 
 let citySelect = document.querySelector("#select-city");
 citySelect.addEventListener("change", updateCity);
+
+function showHomepageMessage() {
+  let homepageMessage = document.querySelector(".back-to-homepage");
+  homepageMessage.classList.remove("hidden");
+}
+
+function hideHomepageMessage() {
+  let homepageMessage = document.querySelector(".back-to-homepage");
+  homepageMessage.classList.add("hidden");
+}
+
+let homepageLinkElement = document.querySelector(".homepage-link");
+homepageLinkElement.addEventListener("mouseenter", showHomepageMessage);
+homepageLinkElement.addEventListener("mouseleave", hideHomepageMessage);

@@ -21,9 +21,29 @@ h1 {
   text-align: center;
 }
 
+.homepage-link {
+  text-decoration: none;
+  color: #5c2626;
+}
+
+.back-to-homepage {
+  color: #ea7362;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.homepage-link:hover {
+  color: #b74242;
+}
+
 .globe {
   font-size: 35px;
-  padding: 15px 0 30px 0;
+  padding-bottom: 30px;
   text-align: center;
 }
 
