@@ -7,7 +7,7 @@ function updateTime() {
 
     losAngelesDateElement.innerHTML = losAngelesDate.format("MMMM Do YYYY");
     losAngelesTimeElement.innerHTML = losAngelesDate.format(
-      "h:mm:ss [<small>]A[</small>]"
+      "hh:mm:ss [<small>]A[</small>]"
     );
   }
 
@@ -19,7 +19,7 @@ function updateTime() {
 
     sydneyDateElement.innerHTML = sydneyDate.format("MMMM Do YYYY");
     sydneyTimeElement.innerHTML = sydneyDate.format(
-      "h:mm:ss [<small>]A[</small>]"
+      "hh:mm:ss [<small>]A[</small>]"
     );
   }
 
@@ -31,7 +31,7 @@ function updateTime() {
 
     tokyoDateElement.innerHTML = tokyoDate.format("MMMM Do YYYY");
     tokyoTimeElement.innerHTML = tokyoDate.format(
-      "h:mm:ss [<small>]A[</small>]"
+      "hh:mm:ss [<small>]A[</small>]"
     );
   }
 
@@ -43,7 +43,7 @@ function updateTime() {
 
     parisDateElement.innerHTML = parisDate.format("MMMM Do YYYY");
     parisTimeElement.innerHTML = parisDate.format(
-      "h:mm:ss [<small>]A[</small>]"
+      "hh:mm:ss [<small>]A[</small>]"
     );
   }
 }
@@ -68,7 +68,7 @@ function updateCity(event) {
         <div class="date">${cityDate.format("MMMM Do YYYY")}</div>
       </div>
       <div class="time">
-        ${cityDate.format("h:mm:ss")} <small>${cityDate.format("A")}</small>
+        ${cityDate.format("hh:mm:ss")} <small>${cityDate.format("A")}</small>
       </div>
     </div>
     `;
