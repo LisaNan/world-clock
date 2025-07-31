@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+footer a {
+  color: #7ccde4;
+  text-decoration: none;
+}
